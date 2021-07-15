@@ -17,7 +17,7 @@ This repo contains two directories:
 - `v2` This is a working sample with Gatsby v2 and `gatsby-source-contentful` `v2.1.100`. Everything works well.
 - `v3` This is the same code as in the `v2` folder but with the latest Gatsby and `gatsby-source-contentful` versions. The build breaks when a referenced node is trying to be accessed.
 
-The point where it fails is in the local plugin `gatsby-transformer-contentful-local`. Go to [`v3/plugins/gatsby-transformer-contentful-local/gatsby-node.js`](https://github.com/osartun/gatsby-contentful-transformer-issue/blob/e2e82d3131a48f70a0704a9fd3478a17fe4555db/v3/plugins/gatsby-transformer-contentful-local/gatsby-node.js#L40-L54) to find it.
+The point where it fails is in the local plugin `gatsby-transformer-contentful-local`. Go to [`v3/plugins/gatsby-transformer-contentful-local/gatsby-node.js`](https://github.com/osartun/gatsby-contentful-transformer-issue/blob/5e83c267eb68fa0c3f16a27f68a68d107f7ff9ab/v3/plugins/gatsby-transformer-contentful-local/gatsby-node.js#L40-L54) to find it.
 
 ## Run it
 
