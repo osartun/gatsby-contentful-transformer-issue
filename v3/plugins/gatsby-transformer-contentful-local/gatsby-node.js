@@ -22,8 +22,8 @@ const extendContentfulCategory = ({
 }) => {
   const parentCategoryNodeId = node.parentCategory___NODE
   const isSubcategory = !!parentCategoryNodeId
-  // Accessing the parentCategoryNode works fine for some reason even if the subcategory is
-  // processed before the parent category
+  // Accessing the parentCategoryNode works fine even though the subcategory is processed before
+  // the parent category is
   const parentCategoryNode = parentCategoryNodeId
     ? getNode(parentCategoryNodeId)
     : null
